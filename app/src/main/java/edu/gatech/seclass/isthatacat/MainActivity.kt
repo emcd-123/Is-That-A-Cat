@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
 
                 override fun
                         onImageSaved(output: ImageCapture.OutputFileResults){
-                    //TODO: ML MODEL GOES HERE
+                    //TODO: ML MODEL GOES HERE. Testing comment again
                     val msg = "Photo capture succeeded: ${output.savedUri}"
                     Toast.makeText(baseContext, msg, Toast.LENGTH_SHORT).show()
                     Log.d(TAG, msg)
